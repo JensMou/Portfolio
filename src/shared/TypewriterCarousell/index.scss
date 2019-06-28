@@ -1,0 +1,13 @@
+.typewriter {
+    font-family: 'Inconsolata', monospace;
+    font-size: 5.9vw;
+}
+
+.txt-rotate > .wrap { 
+    border-right: 0.08em solid #666;
+    animation: blink .5s step-end infinite alternate;
+}
+
+@keyframes blink { 
+    50% { border-color: transparent; } 
+}
